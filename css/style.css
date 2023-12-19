@@ -1,0 +1,1387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 7000px;
+    
+}
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/1000_F_134115811_zDBMdIni0jDuAMVpFsovAK9H3xUcrTMg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    
+    background-color: rgba(0,0 ,0 , 0.7);
+    
+}
+
+.content{
+    
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%  ,-50%  );
+    
+}
+
+.title1{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+
+.p1{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.btn1{
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin-left: 390px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.btn2{
+    background-color: goldenrod;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+
+.header{
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(216, 214, 214);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+.img1{
+    width: 70px;
+    height: 60px;
+    margin-left: 150px;
+    float: left;
+}
+
+.headerspan{
+    font-size: 23px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 13px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: goldenrod;
+    
+}
+
+.list{
+    list-style-type: none;
+    float: right;
+    margin-right: 200px;
+}
+.list li {
+    display: inline-block;
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 17px;
+    
+}
+
+.list  li  a{
+    text-decoration: none;
+    color: black;
+}
+
+.list  li:hover  a{
+    color: goldenrod;
+}
+
+.list  li .a1{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.btn1:hover{
+    opacity: 0.8;
+}
+.btn2:hover{
+    opacity: 0.8;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.div2{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(226, 226, 225)
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.teamitem{
+    float: left;
+    background-color: white;
+    width: 45%;
+    padding: 14px 18px;
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: center;
+    position: relative;
+}
+
+
+.teamitem img{
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.teamitem::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+    
+
+    bottom: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    
+}
+.teamitem:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4 ;
+    
+}
+
+
+
+
+
+.teaminfotitle{
+    font-size: 55px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300
+}
+
+.teaminfospan{
+    font-size: 20px;
+}
+
+.btninfo1{
+    display: block;
+    margin-left: 35%;
+    margin-top: 10px;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: goldenrod;
+    font-size: 15px;
+    border-style: none;
+}
+
+.btninfo1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btninfo1:hover{
+    background-color: rgb(146, 109, 14);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div3{
+    width: 100%;
+    height: 200vh;
+    background-color:rgb(226, 226, 225)
+}
+
+.container3{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    
+    
+}
+
+.teamcontact3{
+    padding-top: 10%;
+}
+
+
+
+.p11{
+
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.lin11{
+    width: 130px;
+    background-color: blue;
+    height: 3px;
+    border: solid;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 550px;
+}
+
+.teamitem3{
+    float: left;
+    background-color: white;
+    padding: 14px 18px;
+    width: 20%;
+    height: 25%;
+    /* border: solid 3px red; */
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.w2{
+    margin: 0% 15%;
+    }
+    
+
+
+
+.teamimage3{
+    width: 90%; 
+    margin: auto;
+    position: relative;
+}
+
+.teamimage3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.teamoverlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+    z-index: 40;
+}
+
+.teamitem3:hover .teamoverlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.teamoverlay a{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(34, 186, 228);
+    color: blue;
+    margin-top: 40%;
+    margin-left: 40%;
+    
+}
+
+.teamoverlay span{
+    color: blue;
+    margin-left: 23%;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.teamitem3::after{
+    position: absolute;
+    content: "";
+
+    width: 0%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+    
+}
+.teamitem3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4 ;
+    
+}
+
+
+.teamcontact33{
+    padding-top: 30%;
+}
+
+
+
+
+
+.teamitem33{
+    float: left;
+    background-color: white;
+    padding: 14px 18px;
+    width: 20%;
+    height: 25%;
+    position: relative;
+}
+
+
+
+.w3{
+    margin: 0% 15%;
+    }
+
+
+
+
+.teamimage33{
+    width: 90%; 
+    margin: auto;
+    position: relative;
+}
+
+.teamimage33 img {
+    width: 100%;
+    height: 100%;
+}
+
+.teamoverlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+
+.teamitem33:hover .teamoverlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.teamoverlay a{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(34, 186, 228);
+    color: blue;
+    margin-top: 40%;
+    margin-left: 40%;
+    z-index: 40;
+}
+
+.teamoverlay span{
+    color: blue;
+    margin-left: 23%;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.teamitem33::after{
+    position: absolute;
+    content: "";
+
+    width: 0%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.teamitem33:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6 ;
+    
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.div4{
+    width: 100%;
+    height: 130vh;
+    background-color:rgb(226, 226, 225)
+}
+
+.container4{
+    width: 90%;
+    margin: auto;
+}
+
+.info4{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleinfo4{
+    font-size: 50px;
+    margin-bottom: 9%;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.spninfo4{
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.content4{
+    padding-top: 4%;
+    padding-left: 10%;
+    width: 90%;
+}
+
+.teamitem4{
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.q1{
+    margin: 0% 15%;
+}
+
+
+
+.i41{
+    font-size: 60px;
+    margin-bottom: 5%;
+    opacity: 0.8;
+}
+
+.i42{
+    font-size: 60px;
+    margin-bottom: 5%;
+    opacity: 0.8;
+}
+
+.i43{
+    font-size: 60px;
+    margin-bottom: 5%;
+    opacity: 0.8;
+}
+
+.titleteamitem4{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 6%;
+    opacity:0.6 ;
+}
+
+.spnteamitem4{
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.contentbtn4{
+    padding: 18px 58px 17px 58px;
+    margin-left: 36%;
+    margin-top: 30%;
+}
+
+.contentbtn4 button{
+    width: 270px;
+    height: 50px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.contentbtn4 button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contentbtn4 button:hover{
+    background-color: rgb(165, 124, 19);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/641330a35720b27a54a94f7f_64067211c0a34954ba79a150_solar-panels-on-green-grass-with-a-bright-sun-in-the-background.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.overlay5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    
+    background-color: rgba(0,0 ,0 , 0.5);
+    
+}
+
+.container5{
+    width: 90%;
+    height: 80%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.info5{
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titleinfo5{
+    font-size: 60px;
+    font-weight: 400;
+    color:white;
+    margin-bottom: 4%;
+    
+}
+
+.spninfo5{
+    font-size: 16px;
+    color: white;
+}
+
+.solarbutton5{
+    padding-top: 5%;
+}
+
+.solarbutton5 button{
+    width: 170px;
+    height: 50px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.solarbutton5 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.solarbutton5 button:hover{
+    background-color: rgb(148, 112, 20);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div6{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(226, 226, 225)
+
+}
+
+.container6{
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    overflow: auto;
+}
+
+.info6{
+
+    float: left;
+    width: 40%;
+    height: 90%;
+    padding-top: 4%;
+}
+
+.titleinfo6{
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4%;
+    opacity: 0.7;
+}
+
+.spninfo6{
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin-bottom: 15%;
+}
+
+.content6{
+    float: left;
+    width: 50%;
+    height: 90%;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.item6{
+    float: left;
+    width: 40%;
+    height: 60%;
+    position: relative;
+}
+
+
+
+.u6{
+    margin: 0% 8%;
+}
+
+.item6 img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8%;
+}
+
+
+
+.item6 a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-weight: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info6 a{
+    color: black;
+    opacity: 0.7;
+}
+
+.info6 a:hover{
+    color: blue;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div7{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Capotto.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.overlay7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0 ,0 , 0.8);
+    
+}
+
+.container7{
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.content71{
+    width: 50%;
+}
+
+.item7{
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+
+.item7 i{
+    font-size: 50px;
+    color: blue;
+}
+
+.numitem7{
+    font-size: 40px;
+    color: white;
+
+}
+
+.spnitem7{
+    font-size: 1px;
+    color: white;
+}
+
+.content72{
+    width: 50%;
+    float: left;
+}
+
+.item7{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.item7 i{
+    font-size: 35px;
+    color: rgb(0, 153, 255);
+    margin-bottom: 3%;
+}
+
+.numitem7{
+    font-size: 40px;
+    color: white;
+
+}
+
+.spnitem7{
+    font-size: 19px;
+    color: white;
+}
+
+.b1{
+    margin: 0% 9%;
+}
+
+
+.b2{
+    margin: 0% 10%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div8{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 216, 216);
+}
+
+.container8{
+    width: 90%;
+    margin: auto;
+    padding-top: 6%;
+}
+
+.info8{
+    width: 40%;
+    float: left;
+    height: 90%;
+    padding-left: 5%;
+}
+
+.tilteinfo8{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: ; */
+}
+
+.line8{
+    
+    width: 80px;
+    color: red;
+    border: solid 2px blue;
+    margin-bottom: 10%;
+}
+
+.spninfo8{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 6%;
+    opacity: 0.6;
+}
+
+.div81{
+    margin-bottom: 2%;
+}
+
+.div82{
+    margin-bottom: 2%;
+}
+
+.div81 span{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+.div82 span{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+.div83 span{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+.info8 i{
+    color: blue;
+    opacity: 0.6;
+}
+
+.item8{
+    width: 30%;
+    height: 60%;
+    float: left;
+    background-color: white;
+    margin-left: 8%;
+}
+
+.logo8{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.logo8 img{
+    margin-top: 4%;
+    width: 100%;
+    height: 100%;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div9{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../images/641330a35720b27a54a94f7f_64067211c0a34954ba79a150_solar-panels-on-green-grass-with-a-bright-sun-in-the-background.jpg.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0 ,0 , 0.8);
+}
+
+.container9{
+    width: 80%;
+    margin: auto;
+    /* padding-top: 10%; */
+}
+
+.content9{
+    width: 60%;
+    margin: auto;
+}
+
+.item9{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.photo9{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-image: url(../images/Screenshot\ 2022-06-03\ 180043.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 1.5%;
+}
+
+.info9{
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.info9 h2{
+    color: white;
+    margin-bottom: 4%;
+}
+
+.info9 span{
+    color: white;
+    display: block;
+}
+
+.info9 a i{
+    margin-top: 3%;
+    color: goldenrod;
+    margin-left: 5%;
+}
+
+.spn9 {
+    padding-top: 17%;
+    padding-left: 15%;
+}
+
+.spn9 span{
+    color: white;
+    
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div10{
+    width: 100%;
+    height: 125vh;
+    background-color: rgb(229, 228, 228);
+}
+
+.container10{
+    width: 90%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+.title10{
+    width: 60%;
+    text-align: center;
+    margin-left: 19% ;
+    
+}
+
+.title10 h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.line10{
+    width: 80px;
+    border: solid 3px blue;
+    margin-left: 45%;
+    margin: auto;
+}
+
+.content10{
+    width: 80%;
+    padding-top: 8%;
+    margin: auto;
+}
+
+.item10{
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.itemimg10 img{
+    width: 90%;
+    height: 30%;
+}
+
+.info10{
+    margin-top: 5%;
+}
+
+.icon101{
+    float: left;
+    margin-left: 100px;
+}
+
+.icon101 i{
+    font-size: 12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon101 span{
+    font-size: 12px;
+    color:rgb(0, 204, 255);
+}
+
+.icon102 i{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon102 span{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.infop10{
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spninfo10{
+    display: block;
+    margin-top: 15%;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 4%;
+}
+
+.info10 a{
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    
+}
+
+.item10::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    
+}
+.item10:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4 ;
+    
+}
+
+.item10{
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.itemimg10 img{
+    width: 90%;
+    height: 30%;
+}
+
+.info10{
+    margin-top: 5%;
+}
+
+.icon101{
+    float: left;
+    margin-left: 100px;
+}
+
+.icon101 i{
+    font-size: 12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon101 span{
+    font-size: 12px;
+    color:rgb(0, 204, 255);
+}
+
+.icon102 i{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon102 span{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.infop10{
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spninfo10{
+    display: block;
+    margin-top: 15%;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 4%;
+}
+
+.info10 a{
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    
+}
+
+.item10::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    
+}
+.item10:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4 ;
+    
+}
+
+.item10{
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.itemimg10 img{
+    width: 90%;
+    height: 30%;
+}
+
+.info10{
+    margin-top: 5%;
+}
+
+.icon101{
+    float: left;
+    margin-left: 100px;
+}
+
+.icon101 i{
+    font-size: 12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon101 span{
+    font-size: 12px;
+    color:rgb(0, 204, 255);
+}
+
+.icon102 i{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.icon102 span{
+    font-size:12px;
+    color: rgb(0, 204, 255);
+}
+
+.infop10{
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spninfo10{
+    display: block;
+    margin-top: 15%;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 4%;
+}
+
+.info10 a{
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    
+}
+
+.item10::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    
+}
+.item10:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4 ;
+    
+}
+
+.l1{
+    margin: 0% 5%;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div11{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(76, 75, 75);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.content11{
+    padding-top: 4%;
+    width: 40%;
+    margin: auto;
+
+}
+
+.itemimg11{
+    margin: auto;
+    width: 150px;
+    height: 100px;
+    background-image: url(../images/my\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4%;
+}
+
+.itemicon11{
+    margin-left: 22%;
+    padding-bottom:   7%;
+}
+
+.circleicon11{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(0, 136, 255);
+    text-align: center;
+    margin-left: 1%;
+}
+
+.itemicon11 a{
+    display: block;
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    margin-top: 14px;
+}
+
+.circleicon11:hover{
+    background-color:blue;
+}
+
+.info11{
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.info11 span{
+    color: rgb(255, 253, 253);
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.5;
+}
